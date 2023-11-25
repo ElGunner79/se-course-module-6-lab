@@ -16,12 +16,8 @@ function Calculator() {
     const handleCalculate = () => {
         const calculation = calculate(firstNumber, secondNumber, operator);
         setResult(calculation);
-    };
-    const handleReset = () => {
         setFirstNumber(0);
         setSecondNumber(0);
-        setOperator("+");
-        setResult(0);
     };
     return (
         <div>
@@ -58,7 +54,6 @@ function Calculator() {
                 Calculate
             </button>
             <p>Result: {result}</p>
-            <button onClick={handleReset}>Reset</button>
         </div>
     );
 }
