@@ -1,5 +1,5 @@
-
 import React, { useState } from 'react';
+
 function Calculator() {
     const [firstNumber, setFirstNumber] = useState(0);
     const [secondNumber, setSecondNumber] = useState(0);
