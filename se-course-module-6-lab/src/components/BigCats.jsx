@@ -128,7 +128,6 @@ const BigCats = () => {
             {/* Lab 4.1.2
                 {cats.map((cat) => (
                 <SingleCat key={cat.name} cat={cat} /> */}
-                
             {/*Lab 5 */}
             <AddCatForm addCat={addCat} />
             {cats.map((cat) => (
